@@ -25,12 +25,6 @@ public class Player : MonoBehaviour
         // Reset moveDelta
         moveDelta = new Vector3(x, y, 0);
 
-        // Swap sprite direction, wether you're going right or left
-        if (moveDelta.x > 0)
-            transform.localScale = Vector3.one;
-        else if (moveDelta.x < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
-
         // Move
         transform.Translate(moveDelta * Time.deltaTime * Speed);
 
