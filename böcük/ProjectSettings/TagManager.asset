@@ -13,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Blocking
+  - Bug
   - 
   - 
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 3930273899
+    locked: 0
+  - name: Interact
+    uniqueID: 1221538205
+    locked: 0
+  - name: Bug
+    uniqueID: 416309411
     locked: 0

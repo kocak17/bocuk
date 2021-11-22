@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: f7fded29db8ef2e4db6960c78dd83cf9
+guid: 2541b8c0be3ffdf4a9d5dc31b0a9f2d9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 271835262620219845
-    second: player_0
+      213: 4662144854446053055
+    second: aydl_0
   - first:
-      213: 378471108023897391
-    second: Amelia_idle_16x16_1
+      213: 9058852633361905182
+    second: aydl_1
   - first:
-      213: 7334375288499993169
-    second: Amelia_idle_16x16_2
+      213: 8530759449611543015
+    second: aydl_2
   - first:
-      213: 4758776143359820123
-    second: Amelia_idle_16x16_3
+      213: 2866882259272752981
+    second: aydl_3
+  - first:
+      213: 6762206640183348918
+    second: aydl_4
+  - first:
+      213: 1404114299846045809
+    second: aydl_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -43,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -57,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,34 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_0
+      name: aydl_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c937e92bb0c5c300800000000000000
-      internalID: 271835262620219845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Amelia_idle_16x16_1
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 14
-        height: 22
+        x: 266
+        y: 26
+        width: 417
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2d438fa779904500800000000000000
-      internalID: 378471108023897391
+      spriteID: fb61ca44b0443b040800000000000000
+      internalID: 4662144854446053055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amelia_idle_16x16_2
+      name: aydl_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 22
+        x: 950
+        y: 26
+        width: 417
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15af178377fe8c560800000000000000
-      internalID: 7334375288499993169
+      spriteID: e16f524697287bd70800000000000000
+      internalID: 9058852633361905182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Amelia_idle_16x16_3
+      name: aydl_2
       rect:
         serializedVersion: 2
-        x: 33
-        y: 0
-        width: 14
-        height: 22
+        x: 1595
+        y: 26
+        width: 417
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,8 +161,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b51c09670b19a0240800000000000000
-      internalID: 4758776143359820123
+      spriteID: 7e127628588536670800000000000000
+      internalID: 8530759449611543015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aydl_3
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 26
+        width: 417
+        height: 1224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f52d4b93639c720800000000000000
+      internalID: 2866882259272752981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aydl_4
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 26
+        width: 417
+        height: 1224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be8aed8c1f28dd50800000000000000
+      internalID: 6762206640183348918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aydl_5
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 26
+        width: 417
+        height: 1224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170be52348a6c7310800000000000000
+      internalID: 1404114299846045809
       vertices: []
       indices: 
       edges: []
