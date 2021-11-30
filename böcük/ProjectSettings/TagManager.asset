@@ -44,6 +44,9 @@ TagManager:
   - name: Floor
     uniqueID: 3930273899
     locked: 0
+  - name: Furniture
+    uniqueID: 877977359
+    locked: 0
   - name: Interact
     uniqueID: 1221538205
     locked: 0
