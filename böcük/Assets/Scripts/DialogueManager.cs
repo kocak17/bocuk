@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", true);
         
-        Debug.Log("Starting conversation with" + dialogue.interactableObjectName);
+        Debug.Log("Starting conversation with " + dialogue.interactableObjectName);
 
         names.Clear();
 
